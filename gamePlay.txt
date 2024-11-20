@@ -1,0 +1,14 @@
+tate (what needs to be tracked as the game is being played):
+turn
+- Values: 1 or -1
+board
+- 2D Array (array of arrays)
+- The nested arrays will represent the columns
+- Element Values:
+ - null (cell is empty)
+ - 1 or -1 (which player made the move)
+winner
+- Values:
+ - null (no winner / the game is in play)
+ - 1 or -1 (player has won)
+ - 'Tie'
